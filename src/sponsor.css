@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap');
+
+.sponsor-session{
+    margin: 80px auto;
+}
+.sponsor-img{
+    width: 480px;
+    height: 480px;
+    position: relative;
+}
+.sponsor-img img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+.sponsor-title{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-style: bold;
+    font-size: 3em;
+    color: #4d4d4d;
+    letter-spacing: .4em;
+    margin-top: 20px;
+}
+.sponsor-content{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #c3c3c3;
+    margin-top: 40px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+}
+.sponsor-items{
+    margin: 0 0 9rem 0 !important;
+}
+
+.sponsor-button {
+    background: #83c579;
+    border: none;
+    color: #fff;
+    box-shadow: 0 6px #78ac5f;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 20px;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 15px 35px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	outline: none;
+	position: relative;
+    border-radius: 20px;
+    bottom: 6em;
+    left: 1em;
+}
+.sponsor-button:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.sponsor-button:hover {
+	box-shadow: 0 4px #78ac5f;
+	bottom: 5.8em;
+}
+.sponsor-button:active {
+	box-shadow: 0 0 #78ac5f;
+    bottom: 5.7em;
+}
+.sponsor-button:focus {
+    outline: none;
+}
+
+@media (max-width: 767px){
+    .sponsor-button {
+        bottom: -1em;
+    }
+    .sponsor-button:hover {
+        bottom: -1.2em;
+    }
+    .sponsor-button:active {
+        box-shadow: 0 0 #78ac5f;
+        bottom: -1.3em;
+    }    
+}
+@media(max-width:768px){
+    .sponsor-title{
+        font-size: 2em;
+    }
+}

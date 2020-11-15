@@ -1,0 +1,33 @@
+.hover {
+    position:relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hover img {
+    position:absolute;
+    height: 90vh;
+ 
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.hover img:nth-of-type(2):hover{
+    opacity:0;
+  }
+.fb{
+  display:none;
+}
+@media(max-width:767px){
+  .hover img {
+    height: 15vh;
+    display: none;
+    position: fixed;
+    top: 45%;
+  }
+  .fb{
+    display:block !important;
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "shutrouism",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@devexpress/dx-react-grid-material-ui": "^2.6.2",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@material-ui/core": "^4.9.12",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^3.1.0",
+    "gsap": "^3.2.6",
+    "material-ui": "^0.20.2",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-avatar": "^3.9.3",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-slider": "^2.2.3",
+    "react-dom": "^16.13.1",
+    "react-elastic-carousel": "^0.4.1",
+    "react-iframe": "^1.8.0",
+    "react-pdf": "^4.1.0",
+    "react-read-pdf": "^2.0.9",
+    "react-responsive-carousel": "^3.2.7",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-slick": "^0.25.2",
+    "react-slider-swiper": "^2.0.6",
+    "react-swipeable-views": "^0.13.9",
+    "react-tabs": "^3.1.0",
+    "react-transition-group": "^4.4.1",
+    "react-zmage": "^0.8.5-beta.36",
+    "reactstrap": "^8.4.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.1.0",
+    "swiper": "^5.3.8",
+    "video-react": "^0.14.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

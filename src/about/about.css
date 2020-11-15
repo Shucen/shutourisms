@@ -1,0 +1,106 @@
+.banner-section{
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+.banner-img{
+    justify-content: center;
+}
+.banner-img img{
+    width: 94%;
+}
+.banner-section hr, .master-section hr,
+.shutprm-section hr{
+    border-top: 1.5px solid rgba(0,0,0,.1);
+    width: 5%;
+    margin-left: 2rem;
+    margin-top: .9rem;
+}
+.banner-title{
+    margin-left: 1.5rem;
+    letter-spacing: .2rem;
+}
+.description{
+    letter-spacing:.2rem;
+    margin: 0 0 0 2rem;
+    color: #000000;
+    font-size: 17px;
+}
+.contact{
+    margin: 2.2rem 2.2rem 0 2.2rem;
+    text-align: justify;
+    letter-spacing: 0.5rem;
+}
+.key{
+    color: #c6e8de;
+}
+.shutprm-section{
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+.part{
+    width: 100%;
+    background-color: #f4f4f4;
+    text-align: center;
+    height: 275px;
+    padding: 5%;
+    position: relative;
+}
+.part-logo{
+    width: 13%;
+}
+.part-img{
+    width: 13%;
+    
+}
+.master-section{
+    margin-top: 8rem;
+}
+.master-contact{
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.master-description{
+    letter-spacing: .2rem;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+
+.special{
+    text-align: center;
+    letter-spacing: 1rem;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.social-section{
+    margin-top: 6rem;
+}
+.icon-social{
+    text-align: center;
+}
+.icon-social img{
+    width: 50%;
+    margin: .3rem;
+}
+.pdf{
+    width: 100%;
+}
+@media(max-width:767px){
+    .master-description{
+        width: 70%;
+    }
+    .special{
+        letter-spacing: .2em;
+    }
+    .part-img {
+        width: 20%;
+    }
+    .part-logo{
+        width: 33%;
+    }
+}
+@media (max-width:768px){
+    .part{
+        height: 150px;
+    }
+}

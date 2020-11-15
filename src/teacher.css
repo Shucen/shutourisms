@@ -1,0 +1,190 @@
+
+.teacher-section{
+    position: relative;
+    margin: 25px 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.teacher-description::before{
+    content:"";
+    background-image: url('./img/logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+    position:absolute;
+    opacity: 0.1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.teacher-description{
+    text-align:left;
+    letter-spacing: .3rem;
+    font-size: 15px;
+    margin: 0 auto;
+}
+.teacher-row{
+    justify-content: center !important;
+    overflow: hidden;
+    height: 595px;
+}
+.position{
+    letter-spacing:10px;
+    font-size:34px;
+    color:#e6e6e6;
+}
+.num{
+    font-size:46px;
+}
+.e-name{
+    letter-spacing:1px;
+    font-size:13px;
+    writing-mode: vertical-lr;
+    margin: 0;
+}
+.name{
+    font-size: 36px;
+    text-align: center;
+    margin: 10px auto;
+}
+.description{
+    letter-spacing:7px;
+    margin: 25px 25px 0 25px;
+    color:#999999;
+    font-size: 15px;
+}
+.teacher-title{
+    display: grid;
+    justify-content: right;
+}
+.teacher-img{
+    display: flex;
+    height: 330px;
+    justify-content: center;
+}
+.img{
+    width: 75%;
+    border-radius: 50%;
+    margin: auto 0;
+}
+.img img {
+    width: 80%;
+    margin: auto;
+    -webkit-filter: brightness(.5);
+}
+.slick-center img{
+    width: 100%;
+    -webkit-filter: none;
+}
+.slick-center .teacher-description,
+.slick-center .teacher-row .teacher-img .num{
+    display: block !important;
+}
+.slick-slide .teacher-description,
+.slick-slide .teacher-row .teacher-img .num{
+    display: none;
+}
+.subject{
+    line-height: 3rem;
+}
+.hr{
+    width: 80%;
+    float: left;
+}
+.hr-style{
+    width: 35%;
+    float: left;
+}
+.icon{
+    justify-content: center;
+}
+.icon-teacher{
+    width: 35px;
+	border-radius: 50%;
+    margin: auto 15px;
+	cursor: pointer;
+}
+.icon-teacher:hover{
+    width:55px;
+}
+.react-swipeable-view-container > div {
+    overflow: unset !important;
+}
+.App {
+    text-align: center;
+}
+   
+.App-logo {
+    height: 40vmin;
+}
+   
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+ 
+.slides {
+    position: relative;
+}
+  
+.slides .slick-prev,
+.slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index:1;
+}
+.slides .slick-prev {
+    border-radius: 100%;
+    background-color: #f5f5f5;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 28%;
+    top: 85%;
+    background-image: url('./img/icon-left.png');
+    background-position: 50%;
+}
+.slides .slick-next {
+    border-radius: 100%;
+    background-color: #f5f5f5;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 28%;
+    top: 85%;
+    background-image: url('./img/icon-right.png');
+    background-position: 50%;
+
+}
+.slick-prev:before, .slick-next:before{
+    color: transparent !important;
+}
+.slick-prev:hover, .slick-prev:focus{
+    background: #f5f5f5 url('./img/icon-left.png') 50% !important;
+}
+.slick-next:hover, .slick-next:focus {
+    background: #f5f5f5 url('./img/icon-right.png') 50% !important;
+}
+
+@media (max-width:767px){
+    .slides .slick-prev{
+        left: 0;
+        top:50%;
+    }
+    .slides .slick-next{
+        right: 0;
+        top:50%;
+    }
+    .teacher-description{
+        font-size:3vw;
+    }
+}

@@ -1,0 +1,109 @@
+@import url("https://use.typekit.net/vpk3nhd.css");
+
+.store-top{
+    margin: 40px auto;
+}
+.store-top h6{
+    letter-spacing: .1rem;
+}
+.store-top hr{
+    border-top: 1.5px solid rgba(0,0,0,.1);
+    width: 5%;
+    margin-left: 2rem;
+    margin-top: .7rem;
+}
+.store-section{
+    margin-bottom: 80px;
+    height: 400px;
+}
+.store-list{
+    text-align: center;
+}
+.icon-img{
+    margin: 18px auto;
+    width: 100%;
+}
+.icon-img:hover{
+    opacity: 0.3;
+}
+.text-left{
+    text-align: left;
+}
+.title-color{
+    color: #c3c3c3;
+    letter-spacing: .1rem;
+    font-size: 1vw;
+}
+.title-border{
+    color: #000000;
+    border-left: 1px solid #c3c3c3;
+    margin-left: .5rem;
+    padding-left: .5rem;
+}
+
+
+.store-center{
+    display: inline-flex;
+}
+.store-right{
+    float: right;
+}
+.store-img{
+    width: 100%;
+}
+.store-logo{
+    width: 200px;
+    height: 189.3px;
+}
+.tshirt-section{
+    /* background-color:#758181; */
+    height: 750px;
+}
+.tshirt-img{
+    margin: 175px auto;
+}
+.tshirt-content{
+    margin: 100px auto;
+}
+.tshirt-p{
+    margin-right: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: .2rem;
+}
+.tshirt-square{
+    width:30px; 
+    height:30px;
+    margin-right: 25px;
+    background:#7db995;
+}
+.tshirt-square2{
+    width:30px; 
+    height:30px;
+    margin-right: 25px;
+    background:#afceae;
+}
+.color{
+    display: flex;
+    align-items: center;
+    margin: 45px auto;
+}
+.tshirt-color{
+    margin-top: 160px;
+}
+.tshirt-logo{
+    justify-content: center;
+}
+
+@media (max-width:767px){
+    .store-top{
+        padding-left: 10%;
+        margin: 40px 0 0 0;
+    }
+    .icon-img {
+        width: 45%;
+    }
+    .title-color{
+        padding-left: 28%;
+    }
+}

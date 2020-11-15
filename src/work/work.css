@@ -1,0 +1,245 @@
+/* .container{
+    padding: 0;
+} */
+.row{
+    margin: 0;
+}
+.work-img{
+    width: 100%;
+    margin: 80px auto;
+}
+.content{
+    margin: 160px 0;
+}
+.content-p{
+    margin: 160px 0;
+}
+.description-section{
+    background: linear-gradient(to left, #ffffff 50%, #e9f3eb 50%);
+    width: 100%;
+}
+.description-content{
+    padding: 0 5% 0 5%;
+}
+.description-content p{
+    letter-spacing: .4rem;
+    font-size: .8rem;
+    margin: 3rem auto;
+    text-align: justify;
+}
+.description-title{
+    letter-spacing: .4rem;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.description-title h4{
+    line-height: normal;
+}
+.description-title span{
+    color: #c3c3c3;
+}
+.description-title img{
+    height: 100px;
+}
+.i{
+    background:linear-gradient(45deg, transparent 49.5%, deeppink 49.5%, deeppink 50.5%, transparent 50.5%);
+}
+.member-section{
+    width: 100%;
+}
+.member-content{
+    letter-spacing: .1rem;
+    flex-direction: column;
+    font-size: small;
+}
+.member-content hr{
+    border-top: 1.5px solid rgba(0,0,0,.1);
+    width: 12%;
+    margin-left: 1rem;
+    margin-top: 1.9rem;
+}
+.member-content .row p{
+    margin-top: 1rem;
+    flex-grow: 0;
+    flex-basis: 0;
+}
+.member-content p{
+    margin-top: 2rem;
+}
+.member-img{
+    letter-spacing: .3rem;
+    font-size: small;
+    text-align: justify;
+    padding-right: 5rem;
+}
+.member-title{
+    color: #ebebea;
+}
+.member-text{
+    color: #000000;
+}
+.personal-img{
+    display: block !important;
+    height: auto;
+    max-width: 80%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.margin-top{
+    margin-top: 0 !important;
+}
+.margin-bottom{
+    margin-top: 0 !important;
+}
+.about-section{
+    width: 100%;
+    justify-content: center;
+}
+.about-img{
+    width: 45%;
+    margin: auto;
+}
+.about-description{
+    width: 60%;
+}
+.title{
+    margin: 35px auto;
+    text-align: center;
+    letter-spacing: 4px;
+    
+}
+.about-contact{
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 4px;
+}
+.about-second{
+    margin-top: 4rem;
+    padding: 0;
+    border-top: none;
+    text-align: center;
+}
+.about-second tr td , .plan-second tr td,
+.plan-img tr td{
+    vertical-align: baseline; 
+    border-top: none;
+    text-align: left;
+    padding: 0;
+    letter-spacing: 4px;
+}
+.sketch-description tr td{
+    vertical-align: baseline; 
+    border-top: none;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 4px;
+}
+.fa-caret-up::before{
+    font-size: 25px;
+    content: "\f0d8";
+    font-family: FontAwesome;
+}
+.second-img{
+    width: 98%;
+}
+.plan-section{
+    width: 100%;
+    justify-content: center;
+}
+.plan-description{
+    width: 76%;
+}
+.plan-contact{
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 4px;
+    margin: 5% auto;
+}
+.plan-img1{
+    width:85%;
+}
+.plan-img2{
+    width:100%;
+}
+.plan-img{
+    margin-top: 7%;
+}
+.plan-img3{
+    width: 100%;
+}
+.sketch-section ,.experience-section{
+    width: 100%;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.sketch-contact{
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 4px;
+}
+.sketch-description{
+    margin: 3rem auto;
+}
+.sketch-img{
+    width: 76%;
+}
+.experience-contact{
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 4px;
+    width: 66%;
+}
+.cls-12:hover path{
+    fill:#27473f;
+}
+.cls-12:hover{
+    fill:#27473f;
+}
+.slick-track{
+    display: inline-flex;
+    align-items: center;
+}
+.display{
+    display:block !important;
+}
+.youtube{
+    text-align: center;
+    width: -webkit-fill-available;
+    height: 35rem;
+}
+@media(max-width:767px){
+    .description-section{
+        background: linear-gradient(to bottom, #ffffff 50%, #e9f3eb 50%);
+    }
+    .description-section .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .description-img{
+        order: 2;
+    }
+    .description-title{
+        bottom: auto;
+    }
+    .description-content{
+        margin-top: 0 !important;
+    }
+    .content{
+        margin: 80px 0;
+        padding: 20px 0 20px 0;
+    }
+    .slick-slider .slides .slick-initialized{
+        height: 0;
+    }
+    .youtube{
+        width: initial;
+        height: auto;
+    }
+    .content-p{
+        margin: 230px 0;
+        margin-top: 0 !important;
+        padding: 20px 0 20px 0;
+    }
+}
